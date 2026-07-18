@@ -98,7 +98,7 @@ export default function Depoimentos() {
           <p className="text-center text-sm font-semibold uppercase tracking-wide text-navy-600">
             Também avaliaram o GM Residencial
           </p>
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
             {outrasAvaliacoes.map((r) => (
               <div
                 key={r.nome}
@@ -111,11 +111,6 @@ export default function Depoimentos() {
                   <p className="truncate text-sm font-semibold text-navy-950">
                     {r.nome}
                   </p>
-                  {r.avaliacoes && (
-                    <p className="mt-0.5 text-xs text-slate-500">
-                      {r.avaliacoes}
-                    </p>
-                  )}
                 </div>
               </div>
             ))}

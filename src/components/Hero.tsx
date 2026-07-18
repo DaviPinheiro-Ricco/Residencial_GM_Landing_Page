@@ -11,16 +11,16 @@ export default function Hero() {
   return (
     <section
       id="topo"
-      className="relative overflow-hidden bg-gradient-to-b from-navy-950 via-navy-900 to-navy-800 pt-28 pb-16 md:pt-36 md:pb-24"
+      className="relative overflow-hidden bg-gradient-to-b from-navy-950 via-navy-900 to-navy-800 pt-24 pb-16 md:pt-10 md:pb-24"
     >
       <div className="pointer-events-none absolute -top-24 -right-24 h-80 w-80 rounded-full bg-navy-600/30 blur-3xl" />
-      <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 md:grid-cols-2 md:px-8">
+      <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 md:grid-cols-[1fr_1.15fr] md:px-8">
         <div className="text-center md:text-left">
           <p className="mb-4 inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm font-medium text-white/90">
             Residencial em Mineiros GO
           </p>
-          <h1 className="text-4xl font-bold leading-tight text-white sm:text-5xl">
-            GM Residencial Aluguel em Mineiros GO para quem busca praticidade e independência
+          <h1 className="text-4xl font-bold leading-tight text-white sm:text-6xl">
+            GM Residencial Independência e praticidade em um só lugar
           </h1>
           <p className="mt-5 text-lg text-white/80 sm:text-xl">
             Apartamentos e kitnets do GM Residencial, ideais para estudantes,
@@ -42,14 +42,12 @@ export default function Hero() {
           </ul>
         </div>
 
-        <div className="relative mx-auto w-full max-w-sm md:max-w-none">
-          <div className="overflow-hidden rounded-3xl shadow-2xl shadow-black/40 ring-1 ring-white/10">
+        <div className="relative mx-auto w-full max-w-lg md:max-w-none">
             <img
               src={fachada}
               alt="Fachada do GM Residencial em Mineiros GO, imóvel para alugar"
               className="h-full w-full object-cover"
             />
-          </div>
         </div>
       </div>
     </section>

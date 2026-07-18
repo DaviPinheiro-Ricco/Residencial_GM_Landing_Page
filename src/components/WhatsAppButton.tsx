@@ -13,7 +13,7 @@ export default function WhatsAppButton({
   variant = "solid",
 }: Props) {
   const base =
-    "inline-flex items-center justify-center gap-2.5 rounded-full px-7 py-4 text-base font-semibold transition-transform duration-150 active:scale-95 hover:scale-[1.03]";
+    "inline-flex items-center justify-center gap-2 rounded-full px-5 py-3.5 text-sm font-semibold transition-transform duration-150 active:scale-95 hover:scale-[1.03] sm:gap-2.5 sm:px-7 sm:py-4 sm:text-base";
   const styles =
     variant === "solid"
       ? "bg-whatsapp text-white shadow-lg shadow-whatsapp/30 hover:bg-whatsapp-dark"
