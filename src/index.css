@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --color-navy-950: #081a33;
+  --color-navy-900: #0d2b52;
+  --color-navy-800: #123a6b;
+  --color-navy-700: #184a87;
+  --color-navy-600: #1f5aa3;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #1ebe57;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+}
